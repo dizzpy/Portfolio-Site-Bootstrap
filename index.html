@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- ================ CDN Section ================ -->
+
     <!-- Link External Css file -->
     <link rel="stylesheet" href="Css/style.css">
 
@@ -29,6 +31,10 @@
     <!-- Animation Css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!--AOS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Page Title -->
     <title>Dizzpy | Portfolio Site</title>
 </head>
@@ -41,10 +47,11 @@
     <!-- ================ Navbar Section ================ -->
 
     <!-- Navbar Section -->
-    <div class="container fixed-top">
+    <div class="container fixed-top"> 
+        <!-- add this to ' id="particles-js" ' to get particle view -->
         <div>
             <!-- Fixed Navbar -->
-            <nav class=" navbarrr navbar navbar-expand-lg navbar-dark mt-3 px-2" style="background-color: black;">
+            <nav class=" navbarrr navbar navbar-expand-lg navbar-dark mt-3 px-2">
                 <div class="container-fluid">
                     <!-- Logo -->
                     <div class="page-logo-link">
@@ -106,7 +113,7 @@
         <div class="col-lg-12">
             <div class="row">
                 <!-- Column for text and button -->
-                <div class="col-lg-6 d-flex justify-content-center align-items-center animate__animated animate__fadeInLeft">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center  animate__animated animate__fadeInLeft">
                     <div>
                         <!-- Main Heading -->
                         <h1 class="mt-3 display-1" id="main-text">Howdy</h1>
@@ -147,7 +154,10 @@
                 </div>
             </div>
         </div>
+        <div class="scroll-down-dude"></div>
     </div>
+
+    
     <!-- End Hero Content Section -->
 
     <!-- ================ About Section ================ -->
@@ -157,14 +167,14 @@
     <section id="about">
         <div class="pagepaddingg" style="background-color: #181818;">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="100">
                     <div class="col-12 col-lg-8">
                         <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4">
                             < Who Am I ? >
                         </h1>
                         <!-- Social Media Icons -->
                         <center>
-                            <div class="pb-4 ">
+                            <div class="pb-4 " data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <a href="https://www.github.com/dizzpy" class="social-icon" target="_blank">
                                     <i class="ri-github-fill"></i>
                                 </a>
@@ -185,7 +195,7 @@
                                 </a>
                             </div>
                         </center>
-                        <p class="text-center">
+                        <p class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit sunt aspernatur consequatur optio reprehenderit ducimus ab, ipsum eum dolorum sed reiciendis quas fugiat atque quia numquam natus a cupiditate porro laboriosam beatae Perferendis aliquid dolorem iusto harum distinctio,
                         </p>
                     </div>
@@ -205,10 +215,10 @@
             <div class="container pagepaddingg">
 
                 <center>
-                    <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4"> < Technology and Skills > </Technology></h1>
+                    <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4"  data-aos="fade-up" data-aos-duration="1000"> < Technology and Skills > </Technology></h1>
 
                     <!--Al icons-->
-                    <div class="skillIcons my-5" >
+                    <div class="skillIcons my-5" data-aos="zoom-in" data-aos-duration="800">
                         <div align="center">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
                             <img width="12" />
@@ -243,32 +253,32 @@
                     </div>
 
                     <!--prograss bars-->
-                        <div>
+                        <div data-aos="fade-right" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                        <div>
+                        <div data-aos="fade-left" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                        <div>
+                        <div data-aos="fade-right" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                        <div>
+                        <div data-aos="fade-left" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                        <div>
+                        <div data-aos="fade-right" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                         </div>
-                        <div>
+                        <div data-aos="fade-left" data-aos-duration="800">
                             <p style=" padding-left: 250px; padding-top: 20px;">Html</p>
                             <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
@@ -293,49 +303,53 @@
                 
                 <div class="allcontent textAbout">
                     <div class="texts">
-                        <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4"> < Services ></h1>
+                        <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="100">
+                            < Services >
+                        </h1>
                         <center>
-                        <p class="pb-4 px-lg-5" style="width: 1000px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo harum earum nihil suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur eos temporibus doloremque quam labore corporis amet ullam, vero delectus?</p>
+                        <p class="pb-4 px-lg-5" style="width: 1000px; " data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo harum earum nihil suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur eos temporibus doloremque quam labore corporis amet ullam, vero delectus?
+                        </p>
                         </center>
                     </div>
                     <div class="cards">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa vitae modi officiis ad inventore sed esse in? Voluptates, necessitatibus.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa vitae modi officiis ad inventore sed esse in? Voluptates, necessitatibus.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa vitae modi officiis ad inventore sed esse in? Voluptates, necessitatibus.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa vitae modi officiis ad inventore sed esse in? Voluptates, necessitatibus.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe culpa vitae modi officiis ad inventore sed esse in? Voluptates, necessitatibus.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="200">
                                 <div class="box">
                                     <i class="ri-aliens-fill se-ico"></i>
                                     <h4>Lorem ipsum</h4>
@@ -359,14 +373,16 @@
     <section id="blogs">
         <div class="min-vh-100 aboutPag pagepaddingg" style="background-color: #010101">
             <div class="posts">
-                <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-5"> < Blog ></h1>
+                <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="100">
+                    < Blog >
+                </h1>
                 <div class="container card-styles">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="card rounded-3" style="width: 18rem;">
+                            <div class="card rounded-3" style="width: 18rem;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <img class="card-img-top cardImg" src="https://d.ibtimes.co.uk/en/full/1468729/unknown-hacker.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-text">Card Title</h5>
+                                    <h5 class="card-text">Card Title 01</h5>
                                     <p class="card-title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn cardbtnn mb-3">Read Full Post ></a>
                                 </div>
@@ -374,30 +390,30 @@
                         </div>
                         <!-- Repeat the above column code for each card -->
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="card rounded-3" style="width: 18rem;">
+                            <div class="card rounded-3" style="width: 18rem;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <img class="card-img-top cardImg" src="https://d.ibtimes.co.uk/en/full/1468729/unknown-hacker.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-text">Card Title</h5>
+                                    <h5 class="card-text">Card Title 02</h5>
                                     <p class="card-title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn cardbtnn mb-3">Read Full Post ></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="card rounded-3" style="width: 18rem;">
+                            <div class="card rounded-3" style="width: 18rem;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <img class="card-img-top cardImg" src="https://d.ibtimes.co.uk/en/full/1468729/unknown-hacker.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-text">Card Title</h5>
+                                    <h5 class="card-text">Card Title 03</h5>
                                     <p class="card-title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn cardbtnn mb-3">Read Full Post ></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="card rounded-3" style="width: 18rem;">
+                            <div class="card rounded-3" style="width: 18rem;" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <img class="card-img-top cardImg" src="https://d.ibtimes.co.uk/en/full/1468729/unknown-hacker.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-text">Card Title</h5>
+                                    <h5 class="card-text">Card Title 04</h5>
                                     <p class="card-title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn cardbtnn mb-3">Read Full Post ></a>
                                 </div>
@@ -424,39 +440,41 @@
                 <div class="allform">
 
                     <div class="row">
-                        <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4"> < Contact ></h1>
+                        <h1 class="textAbout mbr-section-title mbr-fonts-style mb-3 pb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease"> < Contact ></h1>
                 </div>
                 <div class="row">
-                        <h4 style="text-align:center" class="pb-3">We'd love to hear from you!</h4>
+                        <h4 style="text-align:center" class="pb-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">We'd love to hear from you!</h4>
                 </div>
                 <center>
                 <div class="row input-container">
                         <div class="col-xs-12">
-                            <div class="styled-input wide">
+                            <div class="styled-input wide" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <input type="text" required />
                                 <label>Name</label> 
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="styled-input">
+                            <div class="styled-input" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <input type="text" required />
                                 <label>Email</label> 
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="styled-input" style="float:right;">
-                                <input type="text"/>
+                            <div class="styled-input" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
+                                <input type="text" required/>
                                 <label>Phone Number</label> 
                             </div>
                         </div>
                         <div class="col-xs-12">
-                            <div class="styled-input wide">
+                            <div class="styled-input wide" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
                                 <textarea required></textarea>
                                 <label>Message</label>
                             </div>
                         </div>
                         <div class="col-xs-12">
-                            <div class="btn-lrg submit-btnn btnn mt-4">Send Message</div>
+                            <div class="btn-lrg submit-btnn btnn mt-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease">
+                                Send Message
+                            </div>
                         </div>
                 </div>
                 </center>
@@ -550,10 +568,19 @@ backToTopBtn.addEventListener("click", function () {
         behavior: "smooth" // Smooth scrolling animation
     });
 });
-
-
-
 </script>
+
+<!--AOS-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<!--Particles Connecting-->
+
+<script src="Js/particles.js"></script>
+<script src="Js/app.js"></script>
 
 </body>
 </html>
