@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <a href="https://dizzzpy.netlify.app/">Live Demo Here ⇗ </a>
+  <a href="https://dizzzpy.netlify.app/" target="_blank">Live Demo Here ⇗ </a>
 </p>
 
 <br>
